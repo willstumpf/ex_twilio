@@ -32,5 +32,5 @@ defmodule ExTwilio.Fax do
             quality: nil,
             duration: nil
 
-  use ExTwilio.Resource, import: [:stream, :find, :create]
+  use ExTwilio.Resource, import: [:stream, :find, :all, :create]
 end
