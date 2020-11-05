@@ -19,6 +19,8 @@ defmodule ExTwilio.Fax do
             to: nil,
             num_pages: nil,
             status: nil,
+            status_callback: nil,
+            status_callback_method: nil,
             error_code: nil,
             error_message: nil,
             direction: nil,
@@ -32,5 +34,13 @@ defmodule ExTwilio.Fax do
             quality: nil,
             duration: nil
 
-  use ExTwilio.Resource, import: [:stream, :find, :all, :create]
+  use ExTwilio.Resource,
+    import: [
+      :stream,
+      :all,
+      :find,
+      :create,
+      :update,
+      :destroy
+    ]
 end
