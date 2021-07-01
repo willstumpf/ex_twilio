@@ -1,5 +1,31 @@
 # Changelog
 
+## [v0.9.1](https://github.com/danielberkompas/ex_twilio/tree/v0.9.1) (2021-06-05)
+
+[Full Changelog](https://github.com/danielberkompas/ex_twilio/compare/v0.9.0...v0.9.1)
+
+**Closed issues:**
+
+- Not compatible with Erlang/OTP 24 [\#155](https://github.com/danielberkompas/ex_twilio/issues/155)
+- HTTPoison error Fatal - Unknown CA.  [\#151](https://github.com/danielberkompas/ex_twilio/issues/151)
+
+**Merged pull requests:**
+
+- Run tests against Erlang 24, Elixir 1.12 [\#156](https://github.com/danielberkompas/ex_twilio/pull/156) ([danielberkompas](https://github.com/danielberkompas))
+- fix\(deprecation\): :crypto.hmac -\> :crypto.mac, Bitwise.^^^ -\> Bitwise.bxor [\#154](https://github.com/danielberkompas/ex_twilio/pull/154) ([seantanly](https://github.com/seantanly))
+- Fix dialyzer errors [\#150](https://github.com/danielberkompas/ex_twilio/pull/150) ([drgmr](https://github.com/drgmr))
+- Documentation Clarification [\#149](https://github.com/danielberkompas/ex_twilio/pull/149) ([imrying](https://github.com/imrying))
+- Use Semaphore for CI [\#146](https://github.com/danielberkompas/ex_twilio/pull/146) ([danielberkompas](https://github.com/danielberkompas))
+
+## [v0.9.0](https://github.com/danielberkompas/ex_twilio/tree/v0.9.0) (2021-02-05)
+
+[Full Changelog](https://github.com/danielberkompas/ex_twilio/compare/v0.8.2...v0.9.0)
+
+**Merged pull requests:**
+
+- Replace Poison with Jason [\#143](https://github.com/danielberkompas/ex_twilio/pull/143) ([tomciopp](https://github.com/tomciopp))
+- Allow request options to be configured for HTTPoison/hackney Twilio requests [\#141](https://github.com/danielberkompas/ex_twilio/pull/141) ([paulanthonywilson](https://github.com/paulanthonywilson))
+
 ## [v0.8.2](https://github.com/danielberkompas/ex_twilio/tree/v0.8.2) (2020-10-01)
 
 [Full Changelog](https://github.com/danielberkompas/ex_twilio/compare/v0.8.1...v0.8.2)
@@ -25,7 +51,7 @@
 
 - Update participant resource [\#140](https://github.com/danielberkompas/ex_twilio/pull/140) ([rrebane](https://github.com/rrebane))
 - Add Rooms resource [\#139](https://github.com/danielberkompas/ex_twilio/pull/139) ([dshvimer2](https://github.com/dshvimer2))
-- Fix typos [\#136](https://github.com/danielberkompas/ex_twilio/pull/136) ([SherSpock](https://github.com/SherSpock))
+- Fix typos [\#136](https://github.com/danielberkompas/ex_twilio/pull/136) ([yakryder](https://github.com/yakryder))
 - Add voice grant [\#134](https://github.com/danielberkompas/ex_twilio/pull/134) ([ostap0207](https://github.com/ostap0207))
 
 ## [v0.8.1](https://github.com/danielberkompas/ex_twilio/tree/v0.8.1) (2019-12-06)
@@ -153,7 +179,7 @@
 
 - 76 - Subaccounts handling [\#78](https://github.com/danielberkompas/ex_twilio/pull/78) ([andrewshatnyy](https://github.com/andrewshatnyy))
 - Upgrade Joken to 1.4.1 [\#74](https://github.com/danielberkompas/ex_twilio/pull/74) ([joshuafleck](https://github.com/joshuafleck))
-- Replace 'accound' with 'account' in capability.ex [\#73](https://github.com/danielberkompas/ex_twilio/pull/73) ([SherSpock](https://github.com/SherSpock))
+- Replace 'accound' with 'account' in capability.ex [\#73](https://github.com/danielberkompas/ex_twilio/pull/73) ([yakryder](https://github.com/yakryder))
 - Adds Update API action to Conference resource. [\#71](https://github.com/danielberkompas/ex_twilio/pull/71) ([m4ttsch](https://github.com/m4ttsch))
 
 ## [v0.3.0](https://github.com/danielberkompas/ex_twilio/tree/v0.3.0) (2017-01-20)
